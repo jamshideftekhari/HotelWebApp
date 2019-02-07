@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f2d8ea558e2843098d5c4a9848c5088d" Name="Diagram1">
+        <EntityTypeShape EntityType="HotelDbtest2018Model.Booking" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelDbtest2018Model.Guest" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelDbtest2018Model.Hotel" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HotelDbtest2018Model.Room" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="HotelDbtest2018Model.FK__Booking__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelDbtest2018Model.FK__Booking__Guest_N__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="HotelDbtest2018Model.FK__Room__Hotel_No__286302EC" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

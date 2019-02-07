@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="HotelUniversalApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HotelUniversalApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModel="using:HotelUniversalApp.ViewModel"
+    mc:Ignorable="d">
+
+    <!--<Page.DataContext>
+        <viewModel:HotelViewModel/>
+    </Page.DataContext>-->
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.DataContext>
+            <viewModel:HotelViewModel></viewModel:HotelViewModel>
+        </Grid.DataContext>
+        <ListView HorizontalAlignment="Left" Height="324" Margin="224,32,0,0" VerticalAlignment="Top" Width="816" ItemsSource="{Binding Hotels, Mode=TwoWay}"/>
+        <ListView HorizontalAlignment="Left" Height="324" Margin="224,372,0,0" VerticalAlignment="Top" Width="816" ItemsSource="{Binding Rooms, Mode=TwoWay}"/>
+
+    </Grid>
+</Page>
